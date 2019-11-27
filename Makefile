@@ -1,8 +1,8 @@
 rtk_hciattach:hciattach.c hciattach_rtk.o  
-	/home/evan/AllwinnerV3S/buildroot/output/host/arm-buildroot-linux-gnueabihf-cc -o rtk_hciattach hciattach.c hciattach_rtk.o  
+	/home/evan/AllwinnerV3S/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-cc -o rtk_hciattach hciattach.c hciattach_rtk.o  
 
 hciattach_rtk.o:hciattach_rtk.c
-	/home/evan/AllwinnerV3S/buildroot/output/host/arm-buildroot-linux-gnueabihf-cc -c hciattach_rtk.c
+	/home/evan/AllwinnerV3S/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-cc -c hciattach_rtk.c
 
 clean:
 	rm -f *.o  rtk_hciattach
